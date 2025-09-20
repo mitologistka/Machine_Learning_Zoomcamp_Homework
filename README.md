@@ -1,4 +1,4 @@
-# Machine Learning Zoomcamp My Møtes
+# Machine Learning Zoomcamp My Notes
 
 ## 01 - intro
 
