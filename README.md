@@ -1,4 +1,11 @@
-# Machine Learning Zoomcamp My Notes
+# Machine Learning Zoomcamp Progress
+
+I started a **Machine Learning course** created by [DataTalks.Club](https://datatalks.club/).  
+The course started on **September 15th, 2025**, and this repository will serve as a place to track my progress in both notes and code.  
+
+More information about the course can be found here:  
+[Machine Learning Zoomcamp](https://datatalks.club/blog/machine-learning-zoomcamp.html#learning-in-public)
+
 
 ## 01 - intro
 
