@@ -16,8 +16,14 @@ This chapter provides a brief overview of machine learning, including:
 - **Types of supervised learning**: Regression and classification.  
 - **Tools**: Basic introduction to **Pandas**, **NumPy**, and **Linear Algebra** concepts essential for ML.  
 
-More: 
-[Notes and code](https://github.com/mitologistka/Machine_Learning_Zoomcamp_Homework/blob/main/01-intro/01-notes.md)
+My notes and code: 
+[Link](https://github.com/mitologistka/Machine_Learning_Zoomcamp_Homework/blob/main/01-intro/01-notes.md)
+
+## 02 - regression
+This chapter start first project about model for predict car price using:
+- juypyter notebook - python
+
+My notes and code: [link](https://github.com/mitologistka/Machine_Learning_Zoomcamp_Homework/blob/main/02-regression/02-notes.md)
 
 
 
