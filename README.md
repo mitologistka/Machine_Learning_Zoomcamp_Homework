@@ -6,6 +6,11 @@ The course started on **September 15th, 2025**, and this repository will serve a
 More information about the course can be found here:  
 [Machine Learning Zoomcamp](https://datatalks.club/blog/machine-learning-zoomcamp.html#learning-in-public)
 
+## Repository Structure
+- `01-intro/` - Introduction: notes and code
+- `02-regression/` - Machine Learning for Regression: project, notes, and code
+- `README.md` - Course summary
+
 
 ## 01 - intro 
 This chapter provides a brief overview of machine learning, including:
