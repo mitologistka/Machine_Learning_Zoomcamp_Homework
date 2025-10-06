@@ -1,6 +1,6 @@
 # 02-regression -  Car price prediction project
 
-##Project plan:
+## Project plan:
 
 * Prepare data and Exploratory data analysis (EDA)
 * Use linear regression for predicting price
