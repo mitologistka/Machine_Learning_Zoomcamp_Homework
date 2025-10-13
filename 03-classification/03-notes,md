@@ -42,7 +42,8 @@ X_train, X_test, y_train, y_test = train_test_split(
 - `random_state=42` - makes the split **reproducible**
 
 Split data with `train_test_split`
-![[division.drawio.png]]
+
+![division](img/division.drawio.png)
 
 ## EDA
 ![eda](img/EDA.drawio.png)
