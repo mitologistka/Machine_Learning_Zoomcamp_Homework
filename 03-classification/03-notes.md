@@ -98,6 +98,7 @@ $$\color{Pink} \large g\left(x_{i}\right) = Sigmoid\left(w_{0} + w_{1}x_{1} + w_
 - **Why it’s useful:** Makes numbers behave like **probabilities**
 - **Shape:** S-curve – small numbers → close to 0, big numbers → close to 1
 - **Formula:**
+
 $$\color{Pink} \large Sigmoid\left(z\right)=\frac{1}{1 + exp\left( -z \right)}$$
 
 ##  Training logistic regression with Scikit-Learn
