@@ -30,5 +30,7 @@ This chapter start first project about model for predict car price using:
 
 My notes and code: [link](https://github.com/mitologistka/Machine_Learning_Zoomcamp_Homework/blob/main/02-regression/02-notes.md)
 
+## 04 
+<img width="254" height="182" alt="image" src="https://github.com/user-attachments/assets/c3811c4b-575c-482e-9d1a-8ac3b9fb4088" />
 
 
