@@ -9,9 +9,9 @@
 
 **New / useful functions / code ideas**
 
-* `sklearn.metrics.accuracy_score(y_true, y_pred)` — baseline metric.
+* `sklearn.metrics.accuracy_score(y_true, y_pred)` - baseline metric.
 
-* `balanced_accuracy_score(y_true, y_pred)` — adjusts for class imbalance by averaging sensitivity and specificity.
+* `balanced_accuracy_score(y_true, y_pred)` - adjusts for class imbalance by averaging sensitivity and specificity.
 
 * Use `scoring='balanced_accuracy'` in `cross_val_score` or `GridSearchCV` so that cross-validation optimizes a better metric than plain accuracy.
 
@@ -25,10 +25,10 @@
 
 * The *confusion matrix* gives counts: TN, FP, FN, TP.
 * From it we define:
-    - **Recall** (TPR) = TP / (TP + FN) — how many actual positives we catch.
-    - **FPR** = FP / (FP + TN) — proportion of negatives incorrectly labeled positive.
-    - **Precision** = TP / (TP + FP) — of predicted positives, how many are correct.
-    - **F1 score** = harmonic mean of precision & recall — a single number reflecting the balance.
+    - **Recall** (TPR) = TP / (TP + FN) - how many actual positives we catch.
+    - **FPR** = FP / (FP + TN) - proportion of negatives incorrectly labeled positive.
+    - **Precision** = TP / (TP + FP) - of predicted positives, how many are correct.
+    - **F1 score** = harmonic mean of precision & recall - a single number reflecting the balance.
 * Changing the decision threshold moves these values around: increasing threshold usually increases precision but reduces recall, and vice versa.
 
 **New / useful functions / code ideas**
@@ -39,7 +39,7 @@
 
 * `f1_score(y_true, y_pred)`
 
-* `precision_recall_fscore_support(y_true, y_pred)` — gives precision, recall, f1, and support in one go for each class.
+* `precision_recall_fscore_support(y_true, y_pred)` - gives precision, recall, f1, and support in one go for each class.
 
 * If you want **custom metrics** (e.g. cost-weighted), you can wrap a function and pass via `sklearn.metrics.make_scorer(...)` for use in cross-validation / grid search.
 
@@ -51,7 +51,7 @@
 
 * Many models output *scores* or *probabilities*, not just class labels. We convert those to labels via a **threshold**.
 * The **ROC curve** plots TPR vs FPR across all possible thresholds.
-* **AUC (Area Under the Curve)** summarizes the ROC into one scalar — how well the model ranks positives above negatives overall.
+* **AUC (Area Under the Curve)** summarizes the ROC into one scalar - how well the model ranks positives above negatives overall.
 * But high AUC doesn’t guarantee that the threshold you choose will give acceptable precision or recall in your actual use case.
 * It’s also useful to pick a **“best threshold”** by heuristics (e.g. maximize F1, maximize (TPR – FPR), or minimize specific cost).
 
@@ -61,7 +61,7 @@
 
 * `sklearn.metrics.auc(fpr, tpr)` or `roc_auc_score(y_true, y_scores)`
 
-* `sklearn.metrics.precision_recall_curve(y_true, y_scores)` — for precision vs recall curves
+* `sklearn.metrics.precision_recall_curve(y_true, y_scores)` - for precision vs recall curves
 
 * In code: loop over thresholds:
 
@@ -75,7 +75,7 @@
       results.append((thr, prec, rec))
   ```
 
-* You can compute **Youden’s J statistic** = TPR – FPR and pick the threshold maximizing it.
+* You can compute **Youden’s J statistic** = TPR - FPR and pick the threshold maximizing it.
 
 * Use `sklearn.metrics.make_scorer(..., needs_proba=True)` so that grid search or cross validation can optimize based on predicted probabilities instead of hard labels.
 
@@ -88,7 +88,7 @@
 * When the positive class is rare, accuracy is deceptive; models tend to favor the majority class.
 * Remedies include: **class weights**, **oversampling**, **undersampling**, and synthetic oversampling (SMOTE).
 * These methods shift the decision boundary or adjust data so that the minority class has more influence.
-* After these techniques, metrics change — perhaps recall improves, but possibly precision drops or FPR rises, so you still need to inspect trade-offs.
+* After these techniques, metrics change - perhaps recall improves, but possibly precision drops or FPR rises, so you still need to inspect trade-offs.
 
 **New / useful functions / code ideas**
 
