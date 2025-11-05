@@ -1,7 +1,3 @@
-Below is a set of **summaries + example new/interesting functions or code snippets** (from libraries or notebooks) for each part of Module 4 (Evaluation / Metrics). Use these as enriched notes you can keep for reference.
-
----
-
 ## 1. Summary: Motivation & Limitations of Accuracy
 
 **What I learned / key takeaways**
