@@ -94,6 +94,3 @@ curl -X POST http://0.0.0.0:9696/predict -H "Content-Type: application/json" -d 
 - predict.py — Flask API for inference.
 - test_predict.py — tests.
 - Dockerfile, Pipfile — container and dependency management.
-
-## License
-MIT (or choose appropriate license)
